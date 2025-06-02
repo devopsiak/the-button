@@ -44,7 +44,8 @@ jobs:
           flake8_report.txt
           coverage_report.txt
           htmlcov/
-        build-and-push:
+
+  build-and-push:
     needs: test
     runs-on: ubuntu-latest
     steps:
