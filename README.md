@@ -38,4 +38,4 @@ Masz dwie możliwości:
 
 🔹 4. Uruchom serwer
 `python manage.py runserver
-Kluczowa zmiana w pliku readme.
+Zmiana w pliku README.
