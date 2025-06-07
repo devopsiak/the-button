@@ -68,8 +68,7 @@ jobs:
         load: true
 
  
-    
- - name: Run Trivy vulnerability scanner
+  - name: Run Trivy vulnerability scanner
   uses: aquasecurity/trivy-action@master
   with:
     image-ref: 'the-button:${{ github.sha }}'
